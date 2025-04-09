@@ -26,3 +26,4 @@ O jogo busca inspiração em títulos como:
 No momento não aceitamos contribuições externas. Mas no futuro se quiser contribuir para o projeto, sinta-se à vontade para abrir *issues* ou enviar *pull requests*.  
 
 ---
+[8-bit-undead.pdf](https://github.com/user-attachments/files/19675430/8-bit-undead.pdf)
