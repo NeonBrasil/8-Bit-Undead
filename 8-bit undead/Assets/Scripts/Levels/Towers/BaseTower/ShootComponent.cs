@@ -3,6 +3,10 @@ using System.Collections.Generic;
 
 public class ShootComponent : MonoBehaviour
 {
+    public GameObject bulletPrefab;
+    public Transform firePoint;
+    public float fireRate = 1f;
+    private float fireCountdown = 0f;
     public List<GameObject> inimigosNoRange = new List<GameObject>();
 
     void OnTriggerEnter2D(Collider2D other)
@@ -21,12 +25,23 @@ public class ShootComponent : MonoBehaviour
         }
     }
 
+    void Atirar()
+    {
+        GameObject alvo = inimigosNoRange[0];
+
+        GameObject bulletGO = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
+        Bullet bullet = bulletGO.GetComponent<Bullet>();
+        bullet.target = alvo;
+    }
+
     void Update()
     {
-        if (inimigosNoRange.Count > 0)
+        if (inimigosNoRange.Count > 0 && fireCountdown <= 0f)
         {
-            // Atira no primeiro inimigo
-            Debug.Log("Torre atira em: " + inimigosNoRange[0].name);
+            Atirar();
+            fireCountdown = 1f / fireRate;
         }
+
+        fireCountdown -= Time.deltaTime;
     }
 }
