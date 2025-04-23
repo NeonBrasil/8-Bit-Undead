@@ -22,8 +22,10 @@ public class Bullet : MonoBehaviour
     {
         if (other.gameObject == target)
         {
-            // Aqui você pode aplicar dano no inimigo
-            Debug.Log("Acertou o inimigo!");
+            HealthComponent health = other.GetComponent<HealthComponent>();
+            
+            health?.TakeDamage(1);
+
             Destroy(gameObject);
         }
     }

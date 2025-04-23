@@ -171,5 +171,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 7861188687285179655, guid: 2f2e60b804bab8b4a8018910c43d80be, type: 3}
   firePoint: {fileID: 572545548575929835}
-  fireRate: 1
+  fireRate: 0.3
   inimigosNoRange: []
