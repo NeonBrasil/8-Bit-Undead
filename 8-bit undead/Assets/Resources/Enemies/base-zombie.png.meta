@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 64460e774a28f1241a28002d7d855889
+guid: 9445500b171a11548866290cb4065798
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5224622593819341167
-    second: base_tower_0
+      213: -1545207426014404390
+    second: base-zombie_0
+  - first:
+      213: -5843331471087855794
+    second: base-zombie_1
+  - first:
+      213: -2144852012127892953
+    second: base-zombie_2
+  - first:
+      213: 1358996430179451020
+    second: base-zombie_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,7 +109,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: base_tower_0
+      name: base-zombie_0
       rect:
         serializedVersion: 2
         x: 0
@@ -113,10 +122,76 @@ TextureImporter:
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: f61f41e5196918840800000000000000
-      internalID: 5224622593819341167
+      spriteID: 6ff897eb3bff8a949bf9f15c70b35054
+      internalID: -23059433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base-zombie_1
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70ca963a337571c4d8940327bcfe9756
+      internalID: 545225674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base-zombie_2
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae268f03e4f808c4aa2b7716f63b1d2f
+      internalID: -1352514959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: base-zombie_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35550d565559b5247a1586cd8f88395d
+      internalID: 1403155777
       vertices: []
       indices: 
       edges: []
@@ -125,7 +200,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 8a21f281e47415847a9e20c80f9faeed
     internalID: 0
     vertices: []
     indices: 
@@ -135,7 +210,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      base_tower_0: 5224622593819341167
+      base-zombie_0: -23059433
+      base-zombie_1: 545225674
+      base-zombie_2: -1352514959
+      base-zombie_3: 1403155777
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
