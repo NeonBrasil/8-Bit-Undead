@@ -4,6 +4,7 @@ public class Bullet : MonoBehaviour
 {
     public float speed = 10f;
     public GameObject target;
+    public Vector3 direcao;
 
     void Update()
     {
@@ -14,8 +15,8 @@ public class Bullet : MonoBehaviour
         }
 
         // Mover em direção ao inimigo
-        Vector3 direction = (target.transform.position - transform.position).normalized;
-        transform.position += direction * speed * Time.deltaTime;
+        
+        transform.position += direcao * speed * Time.deltaTime;
     }
 
     void OnTriggerEnter2D(Collider2D other)

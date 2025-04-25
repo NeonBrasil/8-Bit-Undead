@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 public class LevelSelect : MonoBehaviour
 {
     public void Play_Level_1() {
-        SceneManager.LoadScene("Level_1");
+        SceneManager.LoadScene("Level_1"); 
     }
 
     public void Play_Level_2() {

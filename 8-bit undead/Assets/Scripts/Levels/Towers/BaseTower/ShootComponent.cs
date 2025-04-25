@@ -31,16 +31,25 @@ public class ShootComponent : MonoBehaviour
 
         GameObject bulletGO = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
         Bullet bullet = bulletGO.GetComponent<Bullet>();
+        Vector3 direction = (alvo.transform.position - transform.position).normalized;
+        bullet.direcao = direction;
         bullet.target = alvo;
     }
 
     void Update()
     {
-        if (inimigosNoRange.Count > 0 && fireCountdown <= 0f)
-        {
-            Atirar();
-            fireCountdown = 1f / fireRate;
+        if(inimigosNoRange.Count > 0){
+            GameObject alvo = inimigosNoRange[0];
+            Vector3 direcao = alvo.transform.position - transform.position;
+            float angulo = Mathf.Atan2(direcao.y, direcao.x) * Mathf.Rad2Deg;
+            transform.rotation = Quaternion.Euler(0, 0, angulo-90);
+            if (fireCountdown <= 0f)
+            {
+                Atirar();
+                fireCountdown = 1f / fireRate;
+            }
         }
+        
 
         fireCountdown -= Time.deltaTime;
     }
