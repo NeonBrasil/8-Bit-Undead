@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class Bullet : MonoBehaviour
 {
+    public float damage = 1f;
     public float speed = 10f;
     public GameObject target;
     public Vector3 direcao;
@@ -25,7 +26,7 @@ public class Bullet : MonoBehaviour
         {
             HealthComponent health = other.GetComponent<HealthComponent>();
             
-            health?.TakeDamage(1);
+            health?.TakeDamage(damage);
 
             Destroy(gameObject);
         }

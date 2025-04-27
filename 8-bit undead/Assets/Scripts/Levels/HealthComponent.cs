@@ -2,15 +2,15 @@ using UnityEngine;
 
 public class HealthComponent : MonoBehaviour
 {
-    public int maxHealth = 10;
-    private int currentHealth;
+    public float maxHealth = 10;
+    private float currentHealth;
 
     void Start()
     {
         currentHealth = maxHealth;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         currentHealth -= damage;
 
