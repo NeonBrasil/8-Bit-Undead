@@ -16,7 +16,6 @@ public class EnemyMovement : MonoBehaviour
         {
             Transform alvo = waypoints[pontoAtual];
             Vector3 direcao = (alvo.position - transform.position).normalized;
-            Debug.Log(direcao);
             if(Mathf.Abs(direcao.y) > 0.1){
                 transform.rotation = Quaternion.Euler(0, 0, 90*direcao.y);
 

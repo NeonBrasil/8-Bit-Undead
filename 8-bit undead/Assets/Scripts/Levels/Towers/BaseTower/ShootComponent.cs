@@ -1,8 +1,10 @@
 using UnityEngine;
 using System.Collections.Generic;
 
+
 public class ShootComponent : MonoBehaviour
 {
+    
     public GameObject bulletPrefab;
     public Transform firePoint;
     public float fireRate = 1f;
@@ -53,4 +55,6 @@ public class ShootComponent : MonoBehaviour
 
         fireCountdown -= Time.deltaTime;
     }
+
+    
 }
