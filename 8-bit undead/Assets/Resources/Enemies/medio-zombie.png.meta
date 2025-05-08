@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: 64460e774a28f1241a28002d7d855889
+guid: 375a6548afedcc84990c019bc8fd8cd4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5224622593819341167
-    second: base_tower_0
+      213: 1633507409670241377
+    second: medio-zombie_0
+  - first:
+      213: 5000166423184776493
+    second: medio-zombie_1
+  - first:
+      213: -8410503597220207841
+    second: medio-zombie_2
+  - first:
+      213: 5274351286719005599
+    second: medio-zombie_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,12 +109,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: base_tower_0
+      name: medio-zombie_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 23
         y: 7
-        width: 128
+        width: 90
         height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -115,8 +124,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f61f41e5196918840800000000000000
-      internalID: 5224622593819341167
+      spriteID: 16cfc5b95526ba610800000000000000
+      internalID: 1633507409670241377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medio-zombie_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 7
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d93cfaed8246540800000000000000
+      internalID: 5000166423184776493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medio-zombie_2
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 7
+        width: 90
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f136b810a83e74b80800000000000000
+      internalID: -8410503597220207841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: medio-zombie_3
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 7
+        width: 114
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93c281fc82423940800000000000000
+      internalID: 5274351286719005599
       vertices: []
       indices: 
       edges: []
@@ -134,8 +209,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      base_tower_0: 5224622593819341167
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
