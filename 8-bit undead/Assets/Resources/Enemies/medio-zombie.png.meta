@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      medio-zombie_0: 1633507409670241377
+      medio-zombie_1: 5000166423184776493
+      medio-zombie_2: -8410503597220207841
+      medio-zombie_3: 5274351286719005599
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

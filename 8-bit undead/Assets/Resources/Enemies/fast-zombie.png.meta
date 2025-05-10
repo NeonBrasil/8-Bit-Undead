@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fast-zombie_0: 5697651250302693227
+      fast-zombie_1: -5003445930299941288
+      fast-zombie_2: 7980518941438192368
+      fast-zombie_3: 991349378549783809
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,9 +1,12 @@
 using UnityEngine;
+using System;
 
 public class HealthComponent : MonoBehaviour
 {
     public float maxHealth = 10;
     private float currentHealth;
+
+    public static event Action<GameObject> OnDeath;
 
     void Start()
     {
@@ -22,6 +25,8 @@ public class HealthComponent : MonoBehaviour
 
     void Die()
     {
+        OnDeath?.Invoke(gameObject);
+
         Destroy(gameObject);
     }
 }
