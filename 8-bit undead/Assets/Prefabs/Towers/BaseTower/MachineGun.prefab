@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5538697580230480984}
   m_Layer: 0
   m_Name: MachineGun
-  m_TagString: Untagged
+  m_TagString: Tower
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -327,7 +327,7 @@ GameObject:
   - component: {fileID: 2302537808502936897}
   - component: {fileID: 2683213577348768974}
   - component: {fileID: 8909860402150666172}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Square
   m_TagString: Untagged
   m_Icon: {fileID: 0}
