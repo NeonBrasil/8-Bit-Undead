@@ -23,10 +23,19 @@ public class HealthComponent : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "TowerToDefend")
+        {
+            GameManager.DecreaseLife(1);
+            Destroy(gameObject);
+        }
+    }
+
     void Die()
     {
         OnDeath?.Invoke(gameObject);
-
+        GameManager.IncreaseKills();
         Destroy(gameObject);
     }
 }
