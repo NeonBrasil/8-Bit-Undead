@@ -963,7 +963,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   tempoEntreSpawns: 4.53
-  quantidadeMaxima: 10
+  quantidadeMaxima: 50
 --- !u!4 &1393172115
 Transform:
   m_ObjectHideFlags: 0
@@ -1377,7 +1377,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   tempoEntreSpawns: 4.53
-  quantidadeMaxima: 10
+  quantidadeMaxima: 50
 --- !u!4 &1571866696
 Transform:
   m_ObjectHideFlags: 0
@@ -1681,7 +1681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ece6cb2fccb0674389677984af586fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  kills_to_win: 1
+  kills_to_win: 30
   layout: {fileID: 11400000, guid: 8f42b55f653577d4e92980cde0c95f24, type: 2}
 --- !u!4 &1767345974
 Transform:
