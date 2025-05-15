@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tela_gameover_0: 5974806474871672507
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
